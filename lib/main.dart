@@ -359,7 +359,7 @@ class QuickLaunchRoute extends StatelessWidget {
                       labelText: 'Enter the Image Name *',
                     ),
                     onChanged: (val) {
-                      osname = val;
+                      imagename = val;
                     },
                   ),
                 ),
