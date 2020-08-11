@@ -1105,6 +1105,9 @@ class TerminateRoute extends StatelessWidget {
             RaisedButton(
               color: Colors.red,
               onPressed: () {
+                        //      ourscript = ""
+                        web(nodeip, script, osname, imagename, port, network,
+                            mountpoint, containerpoint);                
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => ContainerRoute()),
