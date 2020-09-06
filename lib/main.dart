@@ -836,10 +836,18 @@ class _ContaineralllistState extends State<Containeralllist> {
                 Container(
                   height: 400,
                   width: 400,
-                  child: Text(
-                    listbody,
-                    style: TextStyle(fontSize: 15),
-                  ),
+                  child: ListView.builder(
+                      itemCount: 1,
+                      itemBuilder: (BuildContext context, int index) {
+                        return Card(
+                          child: ListTile(
+                            title: Text(
+                              listbody,
+                              style: TextStyle(fontSize: 15),
+                            ),
+                          ),
+                        );
+                      }),
                 )
               ],
             )
@@ -915,10 +923,18 @@ class _ContainerlistState extends State<Containerlist> {
                 Container(
                   height: 400,
                   width: 400,
-                  child: Text(
-                    listbody,
-                    style: TextStyle(fontSize: 15),
-                  ),
+                  child: ListView.builder(
+                      itemCount: 1,
+                      itemBuilder: (BuildContext context, int index) {
+                        return Card(
+                          child: ListTile(
+                            title: Text(
+                              listbody,
+                              style: TextStyle(fontSize: 15),
+                            ),
+                          ),
+                        );
+                      }),
                 )
               ],
             )
@@ -1385,10 +1401,18 @@ class _CommandcontState extends State<Commandcont> {
                   child: Container(
                     height: 400,
                     width: 400,
-                    child: Text(
-                      listbody,
-                      style: TextStyle(fontSize: 15),
-                    ),
+                    child: ListView.builder(
+                        itemCount: 1,
+                        itemBuilder: (BuildContext context, int index) {
+                          return Card(
+                            child: ListTile(
+                              title: Text(
+                                listbody,
+                                style: TextStyle(fontSize: 15),
+                              ),
+                            ),
+                          );
+                        }),
                   ),
                 )
               ],
@@ -1723,10 +1747,18 @@ class _ImagelistState extends State<Imagelist> {
                 Container(
                   height: 400,
                   width: 400,
-                  child: Text(
-                    listbody,
-                    style: TextStyle(fontSize: 15),
-                  ),
+                  child: ListView.builder(
+                      itemCount: 1,
+                      itemBuilder: (BuildContext context, int index) {
+                        return Card(
+                          child: ListTile(
+                            title: Text(
+                              listbody,
+                              style: TextStyle(fontSize: 15),
+                            ),
+                          ),
+                        );
+                      }),
                 )
               ],
             )
@@ -1957,10 +1989,18 @@ class _InspectimageState extends State<Inspectimage> {
                 Container(
                   height: 500,
                   width: 400,
-                  child: Text(
-                    listbody,
-                    style: TextStyle(fontSize: 15),
-                  ),
+                  child: ListView.builder(
+                      itemCount: 1,
+                      itemBuilder: (BuildContext context, int index) {
+                        return Card(
+                          child: ListTile(
+                            title: Text(
+                              listbody,
+                              style: TextStyle(fontSize: 15),
+                            ),
+                          ),
+                        );
+                      }),
                 )
               ],
             )
@@ -2200,10 +2240,18 @@ class _NetworkcheckState extends State<Networkcheck> {
                 Container(
                   height: 400,
                   width: 400,
-                  child: Text(
-                    listbody,
-                    style: TextStyle(fontSize: 15),
-                  ),
+                  child: ListView.builder(
+                      itemCount: 1,
+                      itemBuilder: (BuildContext context, int index) {
+                        return Card(
+                          child: ListTile(
+                            title: Text(
+                              listbody,
+                              style: TextStyle(fontSize: 15),
+                            ),
+                          ),
+                        );
+                      }),
                 )
               ],
             )
@@ -2614,10 +2662,18 @@ class _InspectnetworkState extends State<Inspectnetwork> {
                 Container(
                   height: 500,
                   width: 400,
-                  child: Text(
-                    listbody,
-                    style: TextStyle(fontSize: 15),
-                  ),
+                  child: ListView.builder(
+                      itemCount: 1,
+                      itemBuilder: (BuildContext context, int index) {
+                        return Card(
+                          child: ListTile(
+                            title: Text(
+                              listbody,
+                              style: TextStyle(fontSize: 15),
+                            ),
+                          ),
+                        );
+                      }),
                 )
               ],
             )
@@ -2899,10 +2955,18 @@ class _VolumecheckState extends State<Volumecheck> {
                 Container(
                   height: 400,
                   width: 400,
-                  child: Text(
-                    listbody,
-                    style: TextStyle(fontSize: 15),
-                  ),
+                  child: ListView.builder(
+                      itemCount: 1,
+                      itemBuilder: (BuildContext context, int index) {
+                        return Card(
+                          child: ListTile(
+                            title: Text(
+                              listbody,
+                              style: TextStyle(fontSize: 15),
+                            ),
+                          ),
+                        );
+                      }),
                 )
               ],
             )
@@ -2914,8 +2978,6 @@ class _VolumecheckState extends State<Volumecheck> {
     );
   }
 }
-
-var node = "192.168.43.24";
 
 class Volumecreate extends StatelessWidget {
   @override
@@ -3135,10 +3197,18 @@ class _VolumeinspectState extends State<Volumeinspect> {
                 Container(
                   height: 500,
                   width: 400,
-                  child: Text(
-                    listbody,
-                    style: TextStyle(fontSize: 15),
-                  ),
+                  child: ListView.builder(
+                      itemCount: 1,
+                      itemBuilder: (BuildContext context, int index) {
+                        return Card(
+                          child: ListTile(
+                            title: Text(
+                              listbody,
+                              style: TextStyle(fontSize: 15),
+                            ),
+                          ),
+                        );
+                      }),
                 )
               ],
             )
